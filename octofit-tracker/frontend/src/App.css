@@ -1,0 +1,113 @@
+
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #e3e6f3 100%);
+  color: #343a40;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Logo styles */
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+/* Navbar styles */
+.navbar {
+  background: linear-gradient(90deg, #6f42c1 0%, #5bc0de 100%);
+  box-shadow: 0 2px 8px rgba(111, 66, 193, 0.08);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:focus {
+  color: #ffd700 !important;
+}
+
+/* Headings */
+h1, .display-4 {
+  color: #6f42c1;
+  font-weight: 700;
+}
+h2, h3, h4, h5, h6 {
+  color: #5bc0de;
+}
+
+/* Table styles */
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(91, 192, 222, 0.08);
+}
+.table thead {
+  background: #6f42c1;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f3e9fc;
+}
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: #e3f6fa;
+}
+
+/* Button styles */
+.btn-primary, .btn-success, .btn-danger, .btn-info, .btn-warning {
+  border: none;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(111, 66, 193, 0.08);
+}
+.btn-primary {
+  background: linear-gradient(90deg, #6f42c1 0%, #5bc0de 100%);
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #5bc0de 0%, #6f42c1 100%);
+}
+
+/* Link styles */
+a, .App-link {
+  color: #5bc0de;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #6f42c1;
+  text-decoration: underline;
+}
+
+/* Card styles */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(111, 66, 193, 0.08);
+  border: none;
+}
+.card-header {
+  background: #6f42c1;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Modal styles */
+.modal-content {
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(91, 192, 222, 0.15);
+}
+.modal-header {
+  background: #5bc0de;
+  color: #fff;
+}
+.modal-footer {
+  background: #f8fafc;
+}
+
+/* Favicon (for demonstration, not CSS) */
+/* The favicon is set in public/index.html and public/favicon.ico */
